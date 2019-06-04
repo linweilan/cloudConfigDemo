@@ -23,6 +23,7 @@ spring:
   profiles:
     active: dev
 
+
 #配置日志
 logging:
   pattern:
@@ -43,6 +44,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:8000/eureka
 
-
+spring:
+    profiles:
+        active: test
 
 
