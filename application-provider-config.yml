@@ -20,7 +20,8 @@ spring:
     url: jdbc:mysql://10.10.60.32:3306/hzed_ams5
     username: tester5
     password: tester577
-
+  profiles:
+    active: dev
 
 #配置日志
 logging:
@@ -41,17 +42,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka
-spring:
-    profiles:
-      active: dev
-active: dev
 
-
----
-spring:
-    profiles:
-      active: test
-active: test
 
 
 
