@@ -9,3 +9,14 @@ eureka:
     fetch-registry: false #此客户端是否能够获取eureka注册信息
     service-url: #暴露注册服务中心地址
       defaultZone: http://${eureka.instance.hostname}/${server.port}/eureka
+spring:
+    profiles:
+      active: dev
+active: dev
+
+
+---
+spring:
+    profiles:
+      active: test
+active: test  
