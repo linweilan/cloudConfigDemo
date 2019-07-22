@@ -1,5 +1,6 @@
 server:
   port: 8081
+# 添加标识  
 flag: aaa
 
 spring:
