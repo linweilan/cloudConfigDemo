@@ -1,7 +1,7 @@
 server:
   port: 8081
 # 添加标识  
-flag: bbb
+flag: aaa
 
 spring:
 #指定当前微服务对外暴露的名称
