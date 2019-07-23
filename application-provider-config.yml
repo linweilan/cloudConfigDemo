@@ -26,15 +26,15 @@ spring:
 
 
 #配置日志
-logging:
-  pattern:
-    console: level-%level %msg%n
-  level:
-    root: info
-    org.hibernate: info
-    org.hibernate.type.descriptor.sql.BasicBinder: trace
-    org.hibernate.type.descriptor.sql.BasicExtractor: trace
-    com.provider.provider8081: debug
+#logging:
+#  pattern:
+#    console: level-%level %msg%n
+#  level:
+#    root: info
+#    org.hibernate: info
+#    org.hibernate.type.descriptor.sql.BasicBinder: trace
+#    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+#    com.provider.provider8081: debug
 
 eureka:
 #指定当前客户端在注册中心的名称
